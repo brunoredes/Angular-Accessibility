@@ -11,4 +11,8 @@ export class YesNoButtonGroupComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
+
+  public activate(value: string): void {
+    this.value = value;
+  }
 }
